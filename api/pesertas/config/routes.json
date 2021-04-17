@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pesertas",
+      "handler": "pesertas.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pesertas/count",
+      "handler": "pesertas.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pesertas/:id",
+      "handler": "pesertas.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pesertas",
+      "handler": "pesertas.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pesertas/:id",
+      "handler": "pesertas.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pesertas/:id",
+      "handler": "pesertas.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pesertas",
+  "info": {
+    "name": "Pesertas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nama": {
+      "type": "string"
+    },
+    "TempatLahir": {
+      "type": "string"
+    },
+    "JenisKelamin": {
+      "type": "string"
+    },
+    "Jalan": {
+      "type": "string"
+    },
+    "Kecamatan": {
+      "type": "string"
+    },
+    "Kelurahan": {
+      "type": "string"
+    },
+    "Kota": {
+      "type": "string"
+    },
+    "TanggalLahir": {
+      "type": "date"
+    }
+  }
+}
